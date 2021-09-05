@@ -1,7 +1,0 @@
-﻿  MsgHandler.cpp
-  Client.cpp
-  Main.cpp
-D:\FaceRecognizer\Client\Main.cpp(37,27): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
-D:\FaceRecognizer\Client\Main.cpp(53,23): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
-  Generating Code...
-  Client.vcxproj -> D:\FaceRecognizer\FaceRecoginzer\Debug\Client.exe
