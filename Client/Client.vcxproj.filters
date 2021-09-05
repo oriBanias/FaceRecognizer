@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="..\FaceRecoginzer\Common\MsgHandler.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Client.cpp">
+      <Filter>Code</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Common">
+      <UniqueIdentifier>{bb5ffb56-afdd-4924-b156-3e6804210145}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code">
+      <UniqueIdentifier>{14df05ef-c3ec-45fc-b8e5-2ae20eec1ef2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\FaceRecoginzer\Common\ICD.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\FaceRecoginzer\Common\MsgHandler.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Client.h">
+      <Filter>Code</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
